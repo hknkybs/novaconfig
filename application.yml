@@ -6,4 +6,4 @@ eureka:
     prefer-ip-address: true
 
 customHakan:
-  message: "Bu da Order Service için config!"
+  message: "ApplicationBase üzerinden geldi"
