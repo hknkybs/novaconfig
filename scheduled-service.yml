@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://localhost:1433;databaseName=NovaScheduled
+    url: jdbc:sqlserver://localhost:1433;databaseName=NovaScheduled;encrypt=true;trustServerCertificate=true;
     username: sa
     password: StrongPassword123!
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
