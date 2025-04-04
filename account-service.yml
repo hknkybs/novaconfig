@@ -23,3 +23,8 @@ spring:
   batch:
     jdbc:
       initialize-schema: always  # Batch işlerini veritabanında başlatırken schema'yı kontrol eder
+    job:
+      enabled: true
+    repository:
+      table-prefix: BATCH_  # Batch tabloları için prefix (isteğe bağlı)
+      database-type: sqlserver
