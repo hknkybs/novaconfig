@@ -1,6 +1,3 @@
-customHakan:
-  message: "account-service üzerinden geldi"
-
 spring:
   datasource:
     url: jdbc:sqlserver://localhost:1433;databaseName=NovaAccount;encrypt=true;trustServerCertificate=true;

@@ -16,12 +16,3 @@ spring:
     minimum-idle: 5
     idle-timeout: 30000
     connection-timeout: 30000
-
-  batch:
-    jdbc:
-      initialize-schema: always  # Batch işlerini veritabanında başlatırken schema'yı kontrol eder
-    job:
-      enabled: true
-    repository:
-      table-prefix: BATCH_  # Batch tabloları için prefix (isteğe bağlı)
-      database-type: sqlserver
